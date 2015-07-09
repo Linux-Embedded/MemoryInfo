@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Show meminfo"
+        android:id="@+id/button_meminfo"
+        android:textAlignment="center"
+        android:onClick="onMemInfo" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Show compcache status"
+        android:id="@+id/button_cache"
+        android:textAlignment="center"
+        android:onClick="onCache" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Show vmstat"
+        android:id="@+id/button_vmstat"
+        android:textAlignment="center"
+        android:onClick="onVmstat" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Show swaps"
+        android:id="@+id/button_swap"
+        android:textAlignment="center"
+        android:onClick="onSwap" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Process"
+        android:id="@+id/button_process"
+        android:textAlignment="center"
+        android:onClick="onProcess"
+        android:nestedScrollingEnabled="false" />
+</LinearLayout>
